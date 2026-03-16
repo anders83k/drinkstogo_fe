@@ -1,10 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DrinksToGo - Cocktail Recipe Frontend
 
-## Getting Started
+![DrinksToGo Logo](https://via.placeholder.com/150)
 
-First, run the development server:
+DrinksToGo is a Next.js frontend application for browsing and managing cocktail recipes. This application requires a compatible backend service and database to function properly.
 
-```bash
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm, yarn, pnpm, or bun
+- Running backend API service
+- Database connection
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anders83k/drinkstogo_fe.git
+   cd drinkstogo
+
+
+
+Install dependencies:
+bash
+Copy
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+
+Run the development server:
+bash
+Copy
+
 npm run dev
 # or
 yarn dev
@@ -12,22 +46,44 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📂 Project Structure
+The project follows a standard Next.js 13+ structure with the following key components:
+Copy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+.
+├── app/                # App Router directory
+│   ├── page.js         # Main page with cocktail list
+│   └── layout.js       # Root layout component
+├── components/         # Reusable components
+│   └── drink-card.js   # Cocktail card component
+├── public/             # Static assets
+│   ├── images/         # Cocktail images
+│   │   ├── Chrocodile.png
+│   │   ├── Cosmopolitan.png
+│   │   ├── Dry-Martini.png
+│   │   ├── Margarita.png
+│   │   ├── Vodka-Martini.png
+│   │   └── Whiskey-Sour.png
+│   └── ...             # Other static assets
+├── package.json        # Project dependencies
+├── next.config.mjs     # Next.js configuration
+├── eslint.config.mjs   # ESLint configuration
+├── jsconfig.json       # JavaScript configuration
+└── README.md           # Project documentation
 
-## Learn More
+✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+Cocktail Browser: Explore a curated collection of cocktail recipes
+Search Functionality: Find drinks by name, ingredients, or categories
+Responsive Design: Works on desktop, tablet, and mobile devices
+Interactive Cards: Detailed view of each cocktail with ingredients and instructions
+Performance Optimized: Fast loading with Next.js and optimized images
+🛠 Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js - React framework for production
+React - JavaScript library for building UIs
 
 ## Deploy on Vercel
 

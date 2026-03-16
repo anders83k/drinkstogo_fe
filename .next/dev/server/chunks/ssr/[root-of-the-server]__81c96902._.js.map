@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/ayo/Documents/Skolan/Java/Projekt1/Projekt1FE/drinkstogo_fe/app/page.js"],"sourcesContent":["export default function Menu(){\n    return(\n        <div>\n            <h1>\n                this is the menu section\n            </h1>\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAKhB"}}]
+}
